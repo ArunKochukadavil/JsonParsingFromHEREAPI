@@ -10,6 +10,7 @@ namespace ParsingJsonResponseFromHEREAPI
 	{
 		static void Main(string[] args)
 		{
+
 		}
 	}
 }
