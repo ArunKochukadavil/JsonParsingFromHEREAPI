@@ -18,7 +18,8 @@ namespace ParsingJsonResponseFromHEREAPI
 				WebClient wc = new WebClient();
 				Console.WriteLine("How many copies do you want to create : ");
 				int n = int.Parse(Console.ReadLine());
-				var text = File.ReadAllText(@"C:\Users\Arun\Documents\Visual Studio 2017\HereAPIKeys.txt");
+				var location = File.ReadAllText(@"location.txt");
+				var text = File.ReadAllText(location);
 				var id = text.Split();
 
 				var add = AddFetcher.getAddress(n);
