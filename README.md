@@ -5,3 +5,4 @@ I am doing this project in C# Dotnet Framework.
 There are some packages you need to install before using this project for any purpose:
 From NuGet Package Manager install : Newtonsoft.Json
 
+Save your app_id and app_code in a text file and save it in a text file name location.txt which is in directory bin/Debug/location.txt
